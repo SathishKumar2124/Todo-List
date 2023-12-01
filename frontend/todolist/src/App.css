@@ -1,0 +1,39 @@
+.home{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.create-form{
+    width: 300px;
+    padding: 10px;
+    border-bottom: 2px solid;
+}
+.create-btn{
+    padding: 10px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+.task{
+    margin-top: 10px;
+    width: 200px;
+    font-size: large;
+    border: 2px solid;
+    height: 30px;
+    padding: 2px;
+    text-align: center;
+    background-color:aquamarine;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.del-btn:hover{
+    cursor: pointer;
+    background-color: red;
+}
+.line{
+    text-decoration: line-through;
+    color: red;
+}
